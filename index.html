@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas Económicas de Bolivia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Estadísticas Económicas de Bolivia</h1>
+        <p>Datos de la tasa de cambio y otros indicadores económicos actualizados en tiempo real.</p>
+    </header>
+
+    <section id="economy">
+        <div class="indicator-container" id="exchangeRate">
+            <div class="indicator front">
+                <h2>Tasa de Cambio (BOB - USD)</h2>
+                <p>Valor: <span class="value">Cargando...</span></p>
+            </div>
+            <div class="indicator back">
+                <h2>¿Qué significa?</h2>
+                <p>La tasa de cambio refleja el valor del boliviano frente al dólar estadounidense. Indica la capacidad de compra internacional de la moneda y afecta directamente las importaciones, exportaciones y la inversión extranjera.</p>
+            </div>
+        </div>
+
+        <div class="indicator-container" id="gdp">
+            <div class="indicator front">
+                <h2>PIB de Bolivia (Producto Interno Bruto)</h2>
+                <p>Valor: <span class="value">Cargando...</span></p>
+            </div>
+            <div class="indicator back">
+                <h2>¿Qué significa?</h2>
+                <p>El PIB mide el valor total de todos los bienes y servicios producidos en un país. Indica la salud económica general, el crecimiento económico y el nivel de productividad de Bolivia.</p>
+            </div>
+        </div>
+
+        <div class="indicator-container" id="inflation">
+            <div class="indicator front">
+                <h2>Inflación en Bolivia</h2>
+                <p>Valor: <span class="value">Cargando...</span></p>
+            </div>
+            <div class="indicator back">
+                <h2>¿Qué significa?</h2>
+                <p>La inflación mide el aumento generalizado de precios. Una inflación moderada es normal, pero tasas altas pueden indicar inestabilidad económica, reducción del poder adquisitivo y problemas en la economía.</p>
+            </div>
+        </div>
+
+        <div class="indicator-container" id="unemployment">
+            <div class="indicator front">
+                <h2>Tasa de Desempleo</h2>
+                <p>Valor: <span class="value">Cargando...</span></p>
+            </div>
+            <div class="indicator back">
+                <h2>¿Qué significa?</h2>
+                <p>La tasa de desempleo muestra el porcentaje de personas sin trabajo. Un alto desempleo puede indicar problemas estructurales en la economía, falta de oportunidades y potential inestabilidad social.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Estadísticas Económicas Bolivia</p>
+        <div id="sources">
+            <h3>Fuentes</h3>
+            <ul>
+                <li><a href="https://api.exchangerate-api.com/" target="_blank">API de Tasa de Cambio (ExchangeRate-API)</a></li>
+                <li><a href="https://data.worldbank.org/country/bolivia" target="_blank">Banco Mundial - PIB de Bolivia</a></li>
+                <li><a href="https://data.worldbank.org/country/bolivia" target="_blank">Banco Mundial - Inflación de Bolivia</a></li>
+                <li><a href="https://data.worldbank.org/country/bolivia" target="_blank">Banco Mundial - Tasa de Desempleo de Bolivia</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
