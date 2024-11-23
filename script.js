@@ -14,7 +14,7 @@ async function fetchData() {
         const responseRate = await fetch(exchangeRateAPI);
         const rateData = await responseRate.json();
         const exchangeRate = rateData.rates['USD'];  
-        exchangeRateElement.textContent = `1 USD = ${exchangeRate.toFixed(2)} BOB`;
+        exchangeRateElement.textContent = `1 BOB = ${exchangeRate.toFixed(2)} USD`;
 
         const responseGDP = await fetch(worldBankAPI);
         const gdpData = await responseGDP.json();
